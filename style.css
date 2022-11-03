@@ -1,7 +1,7 @@
 :root {
   --color-darkblue: hsl(218, 44%, 22%);
   --color-grayishblue: hsl(220, 15%, 55%);
-  --color-lightgray: hsl(212, 45%, 89%);
+  --color-lightgray: hsl(220deg, 15%, 55%);
 }
 
 html {
@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   overflow: hidden;
 }
@@ -27,6 +27,7 @@ body {
   max-width: 260px;
   background-color: #fff;
   padding: 2rem;
+  margin: 15px;
   border-radius: 15px;
   text-align: center;
   transform: scale(1);
